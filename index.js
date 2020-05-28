@@ -160,7 +160,7 @@ var linuxSystemUnit = [
 
 function getServiceWrap () {
 	if (! serviceWrap)
-		serviceWrap = require ("./build/Release/service");
+		serviceWrap = require ("./build/Release/service.node");
 	return serviceWrap;
 }
 
